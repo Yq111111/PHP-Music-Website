@@ -1,0 +1,19 @@
+.content {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+#thelink {
+	font-size: 20px;
+}
